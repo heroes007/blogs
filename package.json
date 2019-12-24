@@ -12,6 +12,7 @@
     "core-js": "^3.3.2",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
+    "moment": "^2.24.0",
     "view-design": "^4.0.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
@@ -44,7 +45,9 @@
       "eslint:recommended",
       "@vue/typescript"
     ],
-    "rules": {},
+    "rules": {
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "@typescript-eslint/parser"
     }

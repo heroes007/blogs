@@ -1,6 +1,5 @@
 <template>
   <div class="about">
-    <h1 style="height: 1000px;">This is an about page</h1>
     <div class="box">
       <ul class="minbox">
         <li></li>
@@ -49,7 +48,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:100% 100%;
-    position: absolute;
+    /*position: absolute;*/
     margin-left: 42%;
     margin-top: 22%;
     margin-bottom: 20%;

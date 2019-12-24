@@ -1,13 +1,15 @@
 <template>
     <div>
-        <div>{{$route.path}}</div>
-        <div>123</div>
+        <module />
     </div>
 </template>
 
 <script>
+    import module from '../../components/module'
+
     export default {
-        name: "index"
+        name: "index",
+        components: {module}
     }
 </script>
 
